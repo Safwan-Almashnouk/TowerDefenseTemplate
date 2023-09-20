@@ -21,7 +21,6 @@ public class BulletScript : MonoBehaviour
         if(target.tag == "Enemy")
         {
             target.GetComponent<Move>().currhealth -= damage;
-            Debug.Log(HP.currhealth);
             Destroy(gameObject);
         }
     }

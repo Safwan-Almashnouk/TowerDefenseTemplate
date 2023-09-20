@@ -1,0 +1,37 @@
+{
+    "data":
+    [
+        {
+        },
+        {
+            "waveParts":
+       
+        [
+            {
+                "enemyName":0,
+                "amount":5,
+                "spacing":3,
+                "delay":0
+
+            }
+        ]
+        },
+
+        {
+            "waveParts":
+       
+        [
+            {
+                "enemyName":0,
+                "amount":10,
+                "spacing":10,
+                "delay":10
+
+            }
+        ]
+        } 
+
+        
+
+    ]
+}
