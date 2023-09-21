@@ -6,8 +6,7 @@ public class Move : MonoBehaviour
 {
     public float speed;
     public float damage;
-    public float Maxhealth;
-    public float currhealth;
+   
     public waypointManager waypoint;
     int currrentIndex;
     public GameObject Lane;
@@ -32,12 +31,7 @@ public class Move : MonoBehaviour
         
         transform.position += delta * Time.deltaTime * speed;
 
-        if(currhealth <= 0)
-        {
-            Debug.Log("dead");
-            Destroy(gameObject);
-
-        }
+        
         prog += Time.deltaTime;
     }
 

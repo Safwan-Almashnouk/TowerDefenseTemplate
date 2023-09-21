@@ -7,7 +7,7 @@ public class BulletScript : MonoBehaviour
     public float projjectileSpeed;
     public TowerScript tower;
     internal Transform enemyLoc;
-    public Move HP;
+    public Health HP;
     public float damage;
     
 
@@ -20,7 +20,7 @@ public class BulletScript : MonoBehaviour
     {
         if(target.tag == "Enemy")
         {
-            target.GetComponent<Move>().currhealth -= damage;
+            target.GetComponent<Health>().currhealth -= damage;
             Destroy(gameObject);
         }
     }

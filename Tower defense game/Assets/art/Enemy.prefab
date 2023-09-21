@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1428441699099982445}
   - component: {fileID: -7304423056177815260}
   - component: {fileID: 7946342452713489122}
+  - component: {fileID: 4438390703806557237}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -101,8 +102,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 3
   damage: 2
-  Maxhealth: 2
-  currhealth: 2
   waypoint: {fileID: 0}
   Lane: {fileID: 0}
 --- !u!58 &-7304423056177815260
@@ -141,3 +140,17 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+--- !u!114 &4438390703806557237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4641856708788961765}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e246601509c8504e99e9cfaab5696be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Maxhealth: 2
+  currhealth: 2

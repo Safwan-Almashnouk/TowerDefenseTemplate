@@ -11,12 +11,11 @@ public class TowerScript : MonoBehaviour
     // public GameObject Level2;
     [SerializeField] private bool shouldShoot = true;
     private List<GameObject> targets;
-    private Transform towerPos;
-
+    
     void Start()
     {
         targets = GetComponentInChildren<RangeScript>().enemiesInRange;
-        Vector2 towerPos = new Vector2(transform.position.x, transform.position.y);
+     
 
     }
 
@@ -42,7 +41,7 @@ public class TowerScript : MonoBehaviour
     {
        
        
-          yield return new WaitForSeconds(atkSpeed);
+        yield return new WaitForSeconds(atkSpeed);
         shouldShoot = true;
     }
 
