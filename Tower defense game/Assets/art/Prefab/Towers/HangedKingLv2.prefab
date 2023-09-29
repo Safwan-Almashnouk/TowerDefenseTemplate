@@ -74,8 +74,9 @@ GameObject:
   - component: {fileID: 7223567636731858047}
   - component: {fileID: 2643854936914582276}
   - component: {fileID: 7292803710764393704}
+  - component: {fileID: 7841716275403062103}
   m_Layer: 0
-  m_Name: Statue10 1
+  m_Name: HangedKingLv2
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -138,7 +139,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -493798681281967715, guid: c86209b97713eb74db7c11ae300eea6f, type: 3}
+  m_Sprite: {fileID: 5214155013294453026, guid: c86209b97713eb74db7c11ae300eea6f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -161,8 +162,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97b278a4eed5f9140aad01189f53f68b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  atkSpeed: 1
-  damage: 1
+  atkSpeed: 0.6
   bullets: {fileID: 648737125922029266, guid: bda31e9ca4983c34db73732f948600b2, type: 3}
   shouldShoot: 1
 --- !u!50 &7292803710764393704
@@ -186,3 +186,16 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &7841716275403062103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5452529390263032598}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 236ad70a8ce61f6469584d513192de30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextLevel: {fileID: 5536023738442092990, guid: e3edd81dd5dbdef4da76d3f2acbcc547, type: 3}

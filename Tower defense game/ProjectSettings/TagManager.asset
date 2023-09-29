@@ -7,6 +7,7 @@ TagManager:
   - Enemy
   - Grass
   - InBetween
+  - TowerExample
   layers:
   - Default
   - TransparentFX
@@ -43,4 +44,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Ui
+    uniqueID: 3876186971
+    locked: 0
+  - name: Text
+    uniqueID: 3733803831
     locked: 0
