@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
+  - Grass
+  - InBetween
   layers:
   - Default
   - TransparentFX
