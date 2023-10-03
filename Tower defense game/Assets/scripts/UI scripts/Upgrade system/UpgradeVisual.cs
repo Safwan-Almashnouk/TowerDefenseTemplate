@@ -7,23 +7,64 @@ public class UpgradeVisual : MonoBehaviour
     public GameObject nextLevel;
     private SpriteRenderer sd;
     private SpriteRenderer currentSd;
-    private Sprite playerSprite;
+    private Sprite fakeSprite;
+    private TowerScript towerS;
+    private RaycastHit2D upgradeTarget;
 
 
     private void Start()
     {
-        Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        GameObject SpriteExample = GameObject.FindGameObjectWithTag("TowerExample");
-        sd = SpriteExample.GetComponent<SpriteRenderer>();  
-        currentSd = GetComponent<SpriteRenderer>();
-        playerSprite = currentSd.sprite;
+        GameObject spritePlaceHolder = GameObject.FindGameObjectWithTag("TowerExample");
+        sd = spritePlaceHolder.GetComponent<SpriteRenderer>();
+        fakeSprite = sd.sprite;
+       
+        
     }
 
-    private void OnMouseDown()
+    private void Update()
     {
-        sd.sprite = playerSprite;
+        if (!Input.GetMouseButtonDown(0))
+        {
+            return;
+        }
+       
+        Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        RaycastHit2D hit = Physics2D.Raycast(mousePos, Vector2.zero, 1000, LayerMask.GetMask("Towers"));
+
+        if (hit.collider == null)
+        {
+            return;
+        }
+
+        Debug.Log(hit.collider.gameObject.name);
+
+        if (hit.collider.gameObject.CompareTag("Player"))
+        {
+           
+            currentSd = hit.collider.gameObject.GetComponent<SpriteRenderer>();
+            sd.sprite = currentSd.sprite;
+            upgradeTarget = hit;
+            Debug.Log(hit.collider.gameObject.name);
+        }
+       
     }
-   
+
+    public void Upgrade()
+    {
+        if (upgradeTarget == null)
+        {
+            return;
+        }
+      
+        nextLevel = upgradeTarget.collider.gameObject.GetComponent<TowerScript>().nextLevel;
+        Instantiate(nextLevel, upgradeTarget.collider.gameObject.transform.position, upgradeTarget.collider.gameObject.transform.rotation);
+        Destroy(upgradeTarget.collider.gameObject);
+        
+        
+    }
+
+
+
 
 
 }

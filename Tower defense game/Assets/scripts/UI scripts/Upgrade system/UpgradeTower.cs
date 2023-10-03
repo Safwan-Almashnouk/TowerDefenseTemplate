@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class UpgradeTower : MonoBehaviour
 {
-    private UpgradeVisual Uv;
+    public UpgradeVisual Uv;
     void Start()
     {
+        Uv = GetComponent<UpgradeVisual>();
         
     }
 

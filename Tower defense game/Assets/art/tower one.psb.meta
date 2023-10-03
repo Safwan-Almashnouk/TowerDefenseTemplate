@@ -95,14 +95,14 @@ ScriptedImporter:
   rigSpriteImportData:
   - name: Level 3
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
+    pivot: {x: 0.5661603, y: 0.55247915}
+    alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
+      x: 294
       y: 4
-      width: 411
+      width: 121
       height: 393
     spriteID: d35a2ca6342cdf6459da062d2eb4edbc
     spriteBone: []

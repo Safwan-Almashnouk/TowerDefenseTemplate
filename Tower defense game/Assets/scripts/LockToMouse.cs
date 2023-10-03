@@ -19,7 +19,7 @@ public class LockToMouse : MonoBehaviour
     {
         if (other.tag == "Grass")
         {
-            Debug.Log("w");
+            
             validPlacement = true;
         }
     }
@@ -27,7 +27,7 @@ public class LockToMouse : MonoBehaviour
     {
         if (collision.tag == "Grass")
         {
-            Debug.Log("w");
+           
             StartCoroutine(WaitTillEndOfFrame());
         }
     }
