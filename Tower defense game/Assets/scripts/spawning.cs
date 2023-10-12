@@ -10,10 +10,12 @@ public class spawning : MonoBehaviour
     public GameObject[] enemies; 
     public bool Attackstate = true;
     public WaveStructure waveData;
+    public SoundManager soundManager;
     
     void Start()
     {
         StartCoroutine(Spawning());
+       
     }
 
     IEnumerator Spawning()
@@ -38,14 +40,13 @@ public class spawning : MonoBehaviour
             int chosenIndex = Random.Range(0, 2);
             Transform spawnedEnemy = Instantiate(enemies[(int)data.id].transform, spawnpos[chosenIndex].position, Quaternion.identity);
             spawnedEnemy.GetComponent<Move>().Lane = GameObject.Find("Waypoint Manager").GetComponent<LanesScript>().lanes[chosenIndex];
+            soundManager.enemies.Add(spawnedEnemy.gameObject);
             yield return new WaitForSeconds(data.spacing);
         }
     }
 
     public static ScriptableObject CreateInstance(WaveData waveData)
     {
-        
-        waveData = new WaveData();
         return Instantiate(waveData);
     }
   

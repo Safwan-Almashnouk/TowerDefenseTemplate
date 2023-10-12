@@ -1,5 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
+using Unity.Burst.CompilerServices;
 using UnityEngine;
 
 public class UpgradeVisual : MonoBehaviour
@@ -10,15 +12,16 @@ public class UpgradeVisual : MonoBehaviour
     private Sprite fakeSprite;
     private TowerScript towerS;
     private RaycastHit2D upgradeTarget;
-
+    public TMP_Text statsTextField;
+    private int canUpgrade;
 
     private void Start()
     {
         GameObject spritePlaceHolder = GameObject.FindGameObjectWithTag("TowerExample");
         sd = spritePlaceHolder.GetComponent<SpriteRenderer>();
         fakeSprite = sd.sprite;
-       
-        
+
+
     }
 
     private void Update()
@@ -36,15 +39,17 @@ public class UpgradeVisual : MonoBehaviour
             return;
         }
 
-        Debug.Log(hit.collider.gameObject.name);
+  
 
         if (hit.collider.gameObject.CompareTag("Player"))
         {
-           
+            TowerScript stats = hit.collider.GetComponent<TowerScript>();
             currentSd = hit.collider.gameObject.GetComponent<SpriteRenderer>();
             sd.sprite = currentSd.sprite;
             upgradeTarget = hit;
-            Debug.Log(hit.collider.gameObject.name);
+            statsTextField.text = $"Attack : {stats.damage}\t AtkSpeed:{stats.atkSpeed}\t UpgradeCost:{stats.UpgradeCost}";
+
+
         }
        
     }
@@ -55,16 +60,23 @@ public class UpgradeVisual : MonoBehaviour
         {
             return;
         }
-      
-        nextLevel = upgradeTarget.collider.gameObject.GetComponent<TowerScript>().nextLevel;
-        Instantiate(nextLevel, upgradeTarget.collider.gameObject.transform.position, upgradeTarget.collider.gameObject.transform.rotation);
-        Destroy(upgradeTarget.collider.gameObject);
-        
-        
+       
+        canUpgrade = upgradeTarget.collider.gameObject.GetComponent<TowerScript>().UpgradeCost;
+        if (canUpgrade <= GlobalData.playerCurr)
+        {
+            nextLevel = upgradeTarget.collider.gameObject.GetComponent<TowerScript>().nextLevel;
+            Instantiate(nextLevel, upgradeTarget.collider.gameObject.transform.position, upgradeTarget.collider.gameObject.transform.rotation);
+            Destroy(upgradeTarget.collider.gameObject);
+            sd.sprite = nextLevel.gameObject.GetComponent<SpriteRenderer>().sprite;
+            GlobalData.playerCurr -= canUpgrade;
+        }
+        else
+        {
+            return;
+        }
+
+
     }
-
-
-
 
 
 }

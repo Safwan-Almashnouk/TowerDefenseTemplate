@@ -5,8 +5,6 @@ using UnityEngine;
 public class Move : MonoBehaviour
 {
     public float speed;
-    public float damage;
-   
     public waypointManager waypoint;
     int currrentIndex;
     public GameObject Lane;

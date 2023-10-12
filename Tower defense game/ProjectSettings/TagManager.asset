@@ -8,6 +8,7 @@ TagManager:
   - Grass
   - InBetween
   - TowerExample
+  - Exit
   layers:
   - Default
   - TransparentFX

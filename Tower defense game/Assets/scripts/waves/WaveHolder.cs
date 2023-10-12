@@ -6,5 +6,10 @@ using System;
 
 public class WaveHolder : MonoBehaviour
 {
-    public WaveStructure[] waves ;
+    public List<WaveStructure> waves;
+
+    private void Start()
+    {
+        
+    }
 }

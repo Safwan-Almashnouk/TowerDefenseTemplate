@@ -100,10 +100,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97b278a4eed5f9140aad01189f53f68b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  atkSpeed: 1
+  atkSpeed: 0.6
+  damage: 3
   bullets: {fileID: 648737125922029266, guid: bda31e9ca4983c34db73732f948600b2, type: 3}
   nextLevel: {fileID: 0}
   shouldShoot: 1
+  UpgradeCost: 0
 --- !u!50 &3444724235620641917
 Rigidbody2D:
   serializedVersion: 4

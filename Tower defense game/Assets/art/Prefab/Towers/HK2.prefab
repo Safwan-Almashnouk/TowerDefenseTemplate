@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7947723217394668433}
   - component: {fileID: 3444724235620641917}
   - component: {fileID: 4018564448866296184}
+  - component: {fileID: 2690648322508780269}
   m_Layer: 6
   m_Name: HK2
   m_TagString: Player
@@ -100,10 +101,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 97b278a4eed5f9140aad01189f53f68b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  atkSpeed: 1
+  atkSpeed: 0.8
+  damage: 2
   bullets: {fileID: 648737125922029266, guid: bda31e9ca4983c34db73732f948600b2, type: 3}
   nextLevel: {fileID: 94688504777970563, guid: d2234008e2a0c1347bc05b7fb0db798f, type: 3}
   shouldShoot: 1
+  UpgradeCost: 130
 --- !u!50 &3444724235620641917
 Rigidbody2D:
   serializedVersion: 4
@@ -199,6 +202,19 @@ PolygonCollider2D:
       - {x: 0.42, y: -1.925}
       - {x: 0.42999998, y: -1.145}
       - {x: 0.44, y: -1.0749999}
+--- !u!114 &2690648322508780269
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 94688504777970563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1118f270aadf9cc45bb36423561776af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UpgradeCost: 70
 --- !u!1 &6011273548674326321
 GameObject:
   m_ObjectHideFlags: 0

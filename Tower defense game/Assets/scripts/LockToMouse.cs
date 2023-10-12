@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using UnityEngine;
 
 public class LockToMouse : MonoBehaviour
@@ -7,11 +8,14 @@ public class LockToMouse : MonoBehaviour
     public GameObject tower;
     private Vector2 ogPos;
     [SerializeField] private bool validPlacement;
+    public float returnPrice;
+
     
 
     void Start()
     {
         ogPos = transform.position;
+       
         
     }
 
@@ -38,16 +42,7 @@ public class LockToMouse : MonoBehaviour
     {
         Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         transform.position = mousePos;
-        if(Input.GetMouseButtonUp(0) && validPlacement == true) 
-        {
-            Instantiate(tower, transform.position, Quaternion.identity);
-            Destroy(gameObject);
-        }
-        else if(Input.GetMouseButtonUp(0) && !validPlacement) 
-        {
-          Destroy(gameObject);
-          
-        }
+        hasBeenPlaced();
         
 
     }
@@ -55,6 +50,22 @@ public class LockToMouse : MonoBehaviour
     {
         yield return new WaitForEndOfFrame();
         validPlacement = false;
+    }
+
+    private void hasBeenPlaced()
+    {
+        if (Input.GetMouseButtonUp(0) && validPlacement == true)
+        {
+            Instantiate(tower, transform.position, Quaternion.identity);
+            Destroy(gameObject);
+
+        }
+        else if (Input.GetMouseButtonUp(0) && !validPlacement)
+        {
+            Destroy(gameObject);
+            GlobalData.playerCurr += returnPrice;
+            
+        }
     }
 }
 

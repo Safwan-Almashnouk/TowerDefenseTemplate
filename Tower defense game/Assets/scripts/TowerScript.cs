@@ -6,11 +6,12 @@ using UnityEngine;
 public class TowerScript : MonoBehaviour
 {
     public float atkSpeed;
-    private float damage = 1;
+    public float damage ;
     public GameObject bullets;
     public GameObject nextLevel;
     [SerializeField] private bool shouldShoot = true;
     private List<GameObject> targets;
+    public int UpgradeCost;
     
     void Start()
     {

@@ -6,6 +6,7 @@ public class Health : MonoBehaviour
 {
     public float Maxhealth;
     public float currhealth;
+    public int deathReward;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,8 +18,9 @@ public class Health : MonoBehaviour
     {
         if (currhealth <= 0)
         {
-            Debug.Log("dead");
+            GlobalData.playerCurr += deathReward;
             Destroy(gameObject);
+            GameObject.Find("SoundHolder").GetComponent<SoundManager>().enemies.Remove(gameObject);
 
         }
     }

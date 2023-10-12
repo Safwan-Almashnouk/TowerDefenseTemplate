@@ -1,19 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
-public class UpgradeTower : MonoBehaviour
+public class PlayerHP : MonoBehaviour
 {
-    public UpgradeVisual Uv;
+    public TMP_Text health;
     void Start()
     {
-        Uv = GetComponent<UpgradeVisual>();
-        
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
+        health.text = GlobalData.Health.ToString();
     }
 }

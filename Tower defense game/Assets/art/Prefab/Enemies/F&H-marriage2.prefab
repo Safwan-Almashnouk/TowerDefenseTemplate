@@ -11,8 +11,10 @@ GameObject:
   - component: {fileID: 3987053243314766585}
   - component: {fileID: 7522474875907987478}
   - component: {fileID: 1419266910129712541}
-  - component: {fileID: 8272139791542694518}
   - component: {fileID: 7580536503956393300}
+  - component: {fileID: -1878147158061867432}
+  - component: {fileID: 537681963779806503}
+  - component: {fileID: 530277584239850656}
   m_Layer: 0
   m_Name: F&H-marriage2
   m_TagString: Enemy
@@ -28,8 +30,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1662520319512461963}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.4075, y: -0.5912, z: 0}
-  m_LocalScale: {x: 0.40577382, y: 0.3958648, z: 1}
+  m_LocalPosition: {x: -0.3976, y: -0.606, z: 0}
+  m_LocalScale: {x: 0.9817, y: 1.0269, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -76,12 +78,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 16b519f15beb40847bebfb3fe2e21d48, type: 3}
+  m_Sprite: {fileID: -1757391814, guid: 19937dfb265f71f4e9cb1b79c897db4e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 3, y: 3.14}
+  m_Size: {x: 1.08, y: 1.1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -100,32 +102,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
-  damage: 5
-  Maxhealth: 5
-  currhealth: 5
   waypoint: {fileID: 0}
   Lane: {fileID: 0}
---- !u!50 &8272139791542694518
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1662520319512461963}
-  m_BodyType: 0
-  m_Simulated: 0
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
 --- !u!58 &7580536503956393300
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -139,6 +117,54 @@ CircleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.036294505, y: 0}
   serializedVersion: 2
-  m_Radius: 1.57
+  m_Radius: 0.33356464
+--- !u!95 &-1878147158061867432
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1662520319512461963}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: e1ff044bd90b5574fbfa5680f3bcef4b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+--- !u!114 &537681963779806503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1662520319512461963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e246601509c8504e99e9cfaab5696be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Maxhealth: 6
+  currhealth: 6
+  deathReward: 10
+--- !u!114 &530277584239850656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1662520319512461963}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d796155c4194fef4ca38785cc2550521, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 3

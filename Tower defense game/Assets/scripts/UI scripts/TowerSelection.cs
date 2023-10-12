@@ -7,12 +7,14 @@ public class TowerSelection : MonoBehaviour
     public GameObject SelectedTower;
     [SerializeField] private bool isDragging;
     [SerializeField] private bool placeable;
-    private Vector2 offset, ogPos;
+ 
+    private Vector2 offset;
+    public float price;
 
 
     void Start()
     {
-        ogPos = transform.position;
+        offset= transform.position;
     }
     void Update()
     {
@@ -24,17 +26,25 @@ public class TowerSelection : MonoBehaviour
 
     private void OnMouseDown()
     {
-       
-        Instantiate(SelectedTower, transform.position, Quaternion.identity);
-        isDragging = true;
-        offset = GetMousePos() - (Vector2)transform.position;
+       if(price <= GlobalData.playerCurr)
+        {
+            Instantiate(SelectedTower, transform.position, Quaternion.identity);
+            isDragging = true;
+          
+
+        }
+        
     }
 
     private void OnMouseUp()
     {
-        transform.position = ogPos;
+        transform.position = offset;
         isDragging = false;
-       // Destroy(SelectedTower);
+
+        if (price <= GlobalData.playerCurr)
+        { 
+            GlobalData.playerCurr -= price;
+        }
     }
 
     Vector2 GetMousePos()

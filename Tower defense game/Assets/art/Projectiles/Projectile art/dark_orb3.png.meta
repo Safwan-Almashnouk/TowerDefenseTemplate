@@ -1,0 +1,712 @@
+fileFormatVersion: 2
+guid: 87d2b2ba1ea359b4890cd3de326f5751
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dark_orb3_0
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 637
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.5, y: 34.5}
+        - {x: -23.5, y: 34.5}
+        - {x: -34.5, y: 30.5}
+        - {x: -34.5, y: -19.5}
+        - {x: -24.5, y: -34.5}
+        - {x: 17.5, y: -34.5}
+        - {x: 22.5, y: -30.5}
+        - {x: 34.5, y: -20.5}
+        - {x: 34.5, y: 24.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4bff2b709e339d4386b2eb3f0ccb36e
+      internalID: 722283612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark_orb3_1
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 637
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.5, y: 34.5}
+        - {x: -23.5, y: 34.5}
+        - {x: -34.5, y: 30.5}
+        - {x: -34.5, y: -19.5}
+        - {x: -24.5, y: -34.5}
+        - {x: 17.5, y: -34.5}
+        - {x: 22.5, y: -30.5}
+        - {x: 34.5, y: -20.5}
+        - {x: 34.5, y: 24.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa147f33e68cb584bb667e22c0843a68
+      internalID: -2031119305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark_orb3_2
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 637
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.5, y: 34.5}
+        - {x: -23.5, y: 34.5}
+        - {x: -34.5, y: 30.5}
+        - {x: -34.5, y: -19.5}
+        - {x: -24.5, y: -34.5}
+        - {x: 17.5, y: -34.5}
+        - {x: 22.5, y: -30.5}
+        - {x: 34.5, y: -20.5}
+        - {x: 34.5, y: 24.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 450b78423bf10da47a7b7c50d31428cc
+      internalID: 463338625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark_orb3_3
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 637
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.5, y: 34.5}
+        - {x: -23.5, y: 34.5}
+        - {x: -34.5, y: 30.5}
+        - {x: -34.5, y: -19.5}
+        - {x: -24.5, y: -34.5}
+        - {x: 17.5, y: -34.5}
+        - {x: 22.5, y: -30.5}
+        - {x: 34.5, y: -20.5}
+        - {x: 34.5, y: 24.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68262a9f791ad034a89ec6079c161679
+      internalID: -1779090166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark_orb3_4
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 637
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.5, y: 34.5}
+        - {x: -23.5, y: 34.5}
+        - {x: -34.5, y: 30.5}
+        - {x: -34.5, y: -19.5}
+        - {x: -24.5, y: -34.5}
+        - {x: 17.5, y: -34.5}
+        - {x: 22.5, y: -30.5}
+        - {x: 34.5, y: -20.5}
+        - {x: 34.5, y: 24.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c3d7068bb1dc746bf459f2f2a028a4
+      internalID: -94190797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark_orb3_5
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 445
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.5, y: 34.5}
+        - {x: -23.5, y: 34.5}
+        - {x: -34.5, y: 30.5}
+        - {x: -34.5, y: -19.5}
+        - {x: -24.5, y: -34.5}
+        - {x: 17.5, y: -34.5}
+        - {x: 22.5, y: -30.5}
+        - {x: 34.5, y: -20.5}
+        - {x: 34.5, y: 24.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc507f728cf3d5549ac1d9a47448075e
+      internalID: -2016180082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark_orb3_6
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 445
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.5, y: 34.5}
+        - {x: -23.5, y: 34.5}
+        - {x: -34.5, y: 30.5}
+        - {x: -34.5, y: -19.5}
+        - {x: -24.5, y: -34.5}
+        - {x: 17.5, y: -34.5}
+        - {x: 22.5, y: -30.5}
+        - {x: 34.5, y: -20.5}
+        - {x: 34.5, y: 24.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b215317302bf5648acce229e5bc9db3
+      internalID: -69343132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark_orb3_7
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 445
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.5, y: 34.5}
+        - {x: -23.5, y: 34.5}
+        - {x: -34.5, y: 30.5}
+        - {x: -34.5, y: -19.5}
+        - {x: -24.5, y: -34.5}
+        - {x: 17.5, y: -34.5}
+        - {x: 22.5, y: -30.5}
+        - {x: 34.5, y: -20.5}
+        - {x: 34.5, y: 24.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b339f86e925018c46971ca1cbe125bd3
+      internalID: 2123419843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark_orb3_8
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 445
+        width: 70
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.5, y: 34.5}
+        - {x: -23.5, y: 34.5}
+        - {x: -34.5, y: 30.5}
+        - {x: -34.5, y: -19.5}
+        - {x: -24.5, y: -34.5}
+        - {x: 17.5, y: -34.5}
+        - {x: 22.5, y: -30.5}
+        - {x: 34.5, y: -20.5}
+        - {x: 34.5, y: 24.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 472f4cb2e921979499cd1aa4534e54b8
+      internalID: 347435290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark_orb3_9
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 445
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.5, y: 34.5}
+        - {x: -23.5, y: 34.5}
+        - {x: -34.5, y: 30.5}
+        - {x: -34.5, y: -19.5}
+        - {x: -24.5, y: -34.5}
+        - {x: 17.5, y: -34.5}
+        - {x: 22.5, y: -30.5}
+        - {x: 34.5, y: -20.5}
+        - {x: 34.5, y: 24.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d32a6e9d9f5d044b414f3f35da9ef8
+      internalID: -677013484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark_orb3_10
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 253
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.5, y: 34.5}
+        - {x: -23.5, y: 34.5}
+        - {x: -34.5, y: 30.5}
+        - {x: -34.5, y: -19.5}
+        - {x: -24.5, y: -34.5}
+        - {x: 17.5, y: -34.5}
+        - {x: 22.5, y: -30.5}
+        - {x: 34.5, y: -20.5}
+        - {x: 34.5, y: 24.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8725126f901a9d34cbbf715cd30d0744
+      internalID: 1784376528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark_orb3_11
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 253
+        width: 71
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.5, y: 34.5}
+        - {x: -23.5, y: 34.5}
+        - {x: -34.5, y: 30.5}
+        - {x: -34.5, y: -19.5}
+        - {x: -24.5, y: -34.5}
+        - {x: 17.5, y: -34.5}
+        - {x: 22.5, y: -30.5}
+        - {x: 34.5, y: -20.5}
+        - {x: 34.5, y: 24.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 179e5500240ce0e42b19aa45f2e7f960
+      internalID: 1066502114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark_orb3_12
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 253
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.5, y: 34.5}
+        - {x: -23.5, y: 34.5}
+        - {x: -34.5, y: 30.5}
+        - {x: -34.5, y: -19.5}
+        - {x: -24.5, y: -34.5}
+        - {x: 17.5, y: -34.5}
+        - {x: 22.5, y: -30.5}
+        - {x: 34.5, y: -20.5}
+        - {x: 34.5, y: 24.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 066e12e4e783fb848a07eb88f4a535d8
+      internalID: 230662809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark_orb3_13
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 253
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.5, y: 34.5}
+        - {x: -23.5, y: 34.5}
+        - {x: -34.5, y: 30.5}
+        - {x: -34.5, y: -19.5}
+        - {x: -24.5, y: -34.5}
+        - {x: 17.5, y: -34.5}
+        - {x: 22.5, y: -30.5}
+        - {x: 34.5, y: -20.5}
+        - {x: 34.5, y: 24.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0783fa6b52e5d347a25f6484c21e931
+      internalID: 707701453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark_orb3_14
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 253
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.5, y: 34.5}
+        - {x: -23.5, y: 34.5}
+        - {x: -34.5, y: 30.5}
+        - {x: -34.5, y: -19.5}
+        - {x: -24.5, y: -34.5}
+        - {x: 17.5, y: -34.5}
+        - {x: 22.5, y: -30.5}
+        - {x: 34.5, y: -20.5}
+        - {x: 34.5, y: 24.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98553b20a47dcf14885e3a5a4b95cae2
+      internalID: -412186421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark_orb3_15
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 61
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.5, y: 34.5}
+        - {x: -23.5, y: 34.5}
+        - {x: -34.5, y: 30.5}
+        - {x: -34.5, y: -19.5}
+        - {x: -24.5, y: -34.5}
+        - {x: 17.5, y: -34.5}
+        - {x: 22.5, y: -30.5}
+        - {x: 34.5, y: -20.5}
+        - {x: 34.5, y: 24.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e89e747c421eee4db2cf44018c259bc
+      internalID: -656444079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark_orb3_16
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 61
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.5, y: 34.5}
+        - {x: -23.5, y: 34.5}
+        - {x: -34.5, y: 30.5}
+        - {x: -34.5, y: -19.5}
+        - {x: -24.5, y: -34.5}
+        - {x: 17.5, y: -34.5}
+        - {x: 22.5, y: -30.5}
+        - {x: 34.5, y: -20.5}
+        - {x: 34.5, y: 24.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 082c1d402e493d6449ae3b11a57e3eb2
+      internalID: -1673125684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark_orb3_17
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 61
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.5, y: 34.5}
+        - {x: -23.5, y: 34.5}
+        - {x: -34.5, y: 30.5}
+        - {x: -34.5, y: -19.5}
+        - {x: -24.5, y: -34.5}
+        - {x: 17.5, y: -34.5}
+        - {x: 22.5, y: -30.5}
+        - {x: 34.5, y: -20.5}
+        - {x: 34.5, y: 24.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d812960cf2bf043bd56564f03d8be3
+      internalID: 980132161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dark_orb3_18
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 61
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.5, y: 34.5}
+        - {x: -23.5, y: 34.5}
+        - {x: -34.5, y: 30.5}
+        - {x: -34.5, y: -19.5}
+        - {x: -24.5, y: -34.5}
+        - {x: 17.5, y: -34.5}
+        - {x: 22.5, y: -30.5}
+        - {x: 34.5, y: -20.5}
+        - {x: 34.5, y: 24.5}
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f13c443e4ac67f74f98e2569ea1e6e2b
+      internalID: -348951062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      dark_orb3_9: -677013484
+      dark_orb3_5: -2016180082
+      dark_orb3_12: 230662809
+      dark_orb3_0: 722283612
+      dark_orb3_11: 1066502114
+      dark_orb3_3: -1779090166
+      dark_orb3_1: -2031119305
+      dark_orb3_10: 1784376528
+      dark_orb3_4: -94190797
+      dark_orb3_17: 980132161
+      dark_orb3_7: 2123419843
+      dark_orb3_14: -412186421
+      dark_orb3_15: -656444079
+      dark_orb3_13: 707701453
+      dark_orb3_18: -348951062
+      dark_orb3_6: -69343132
+      dark_orb3_8: 347435290
+      dark_orb3_2: 463338625
+      dark_orb3_16: -1673125684
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

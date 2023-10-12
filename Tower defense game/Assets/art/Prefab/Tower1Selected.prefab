@@ -99,8 +99,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 809eb1892c40e58479bf5f34029275d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tower: {fileID: 5452529390263032598, guid: 6df03f1fcd957ea4a82bca245974b967, type: 3}
+  tower: {fileID: 94688504777970563, guid: cec5b0acfcff8a74292b7ff1f2b9be98, type: 3}
   validPlacement: 0
+  returnPrice: 100
 --- !u!58 &7583173946136896325
 CircleCollider2D:
   m_ObjectHideFlags: 0
