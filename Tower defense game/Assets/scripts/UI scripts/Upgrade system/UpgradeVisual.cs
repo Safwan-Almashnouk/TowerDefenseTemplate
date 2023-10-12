@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using Unity.Burst.CompilerServices;
+using Unity.VisualScripting.Antlr3.Runtime.Misc;
 using UnityEngine;
 
 public class UpgradeVisual : MonoBehaviour
@@ -10,10 +11,10 @@ public class UpgradeVisual : MonoBehaviour
     private SpriteRenderer sd;
     private SpriteRenderer currentSd;
     private Sprite fakeSprite;
-    private TowerScript towerS;
     private RaycastHit2D upgradeTarget;
+    public GameObject selectedTower;
     public TMP_Text statsTextField;
-    private int canUpgrade;
+    private TowerScript selectedTowerScript;
 
     private void Start()
     {
@@ -46,10 +47,9 @@ public class UpgradeVisual : MonoBehaviour
             TowerScript stats = hit.collider.GetComponent<TowerScript>();
             currentSd = hit.collider.gameObject.GetComponent<SpriteRenderer>();
             sd.sprite = currentSd.sprite;
-            upgradeTarget = hit;
+            selectedTower = hit.collider.gameObject;
+
             statsTextField.text = $"Attack : {stats.damage}\t AtkSpeed:{stats.atkSpeed}\t UpgradeCost:{stats.UpgradeCost}";
-
-
         }
        
     }
@@ -60,22 +60,23 @@ public class UpgradeVisual : MonoBehaviour
         {
             return;
         }
-       
-        canUpgrade = upgradeTarget.collider.gameObject.GetComponent<TowerScript>().UpgradeCost;
-        if (canUpgrade <= GlobalData.playerCurr)
+        selectedTowerScript = selectedTower.GetComponent<TowerScript>();
+        if (selectedTowerScript.UpgradeCost <= GlobalData.playerCurr)
         {
-            nextLevel = upgradeTarget.collider.gameObject.GetComponent<TowerScript>().nextLevel;
-            Instantiate(nextLevel, upgradeTarget.collider.gameObject.transform.position, upgradeTarget.collider.gameObject.transform.rotation);
-            Destroy(upgradeTarget.collider.gameObject);
-            sd.sprite = nextLevel.gameObject.GetComponent<SpriteRenderer>().sprite;
-            GlobalData.playerCurr -= canUpgrade;
+            
+            GameObject newSelected = Instantiate(selectedTowerScript.nextLevel, selectedTower.transform.position, selectedTower.transform.rotation);
+            Destroy(selectedTower);
+            selectedTower = newSelected;
+            sd.sprite = newSelected.GetComponent<SpriteRenderer>().sprite;
+            GlobalData.playerCurr -= selectedTowerScript.UpgradeCost;
+
+            TowerScript newStats = newSelected.GetComponent<TowerScript>();
+            statsTextField.text = $"Attack : {newStats.damage}\t AtkSpeed:{newStats.atkSpeed}\t UpgradeCost:{newStats.UpgradeCost}";
         }
         else
         {
             return;
         }
-
-
     }
 
 

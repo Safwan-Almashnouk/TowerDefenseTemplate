@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 22586
+  controlID: 1293
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -86,7 +86,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 22587
+  controlID: 1294
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 22502
+  controlID: 1190
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -224,9 +224,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: e06a0000
-      m_LastClickedID: 27360
-      m_ExpandedIDs: 28fbffffc0690000426a0000806a0000a26a0000a86a0000ae6a0000c06a0000e06a0000a66b0000cc6b0000d26b0000
+      m_SelectedIDs: 96c20000
+      m_LastClickedID: 49814
+      m_ExpandedIDs: 52b1ffff66b3ffffc0c20000fec2000020c30000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -242,7 +242,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 5}
+        m_ClientGUIView: {fileID: 0}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -557,9 +557,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -7.0984144, y: -0.14522879, z: -0.04653935}
+    m_Target: {x: 1.1792356, y: -1.6924113, z: 37.706684}
     speed: 2
-    m_Value: {x: -7.0984144, y: -0.14522879, z: -0.04653935}
+    m_Value: {x: 1.1792356, y: -1.6924113, z: 37.706684}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -610,9 +610,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 1.4954062
+    m_Target: 3.2535381
     speed: 2
-    m_Value: 1.4954062
+    m_Value: 3.2535381
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -776,7 +776,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 22588
+  controlID: 1295
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -845,13 +845,13 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/art
+    - Assets/scripts/UI scripts/Data
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 49
   m_LastFolders:
-  - Assets/art
+  - Assets/scripts/UI scripts/Data
   m_LastFoldersGridSize: 49
   m_LastProjectPath: C:\Users\safoa\OneDrive\Desktop\Tower\TowerDefenseTemplate\Tower
     defense game
@@ -859,9 +859,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 9.0000305}
-    m_SelectedIDs: ea6e0000
-    m_LastClickedID: 28394
-    m_ExpandedIDs: 00000000d86e000000ca9a3b
+    m_SelectedIDs: b8c90000
+    m_LastClickedID: 51640
+    m_ExpandedIDs: 00000000acc10000b4c10000d6d9000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -889,7 +889,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000d86e000000ca9a3b
+    m_ExpandedIDs: 00000000acc1000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -914,10 +914,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: e06a0000
-    m_LastClickedInstanceID: 27360
-    m_HadKeyboardFocusLastEvent: 0
-    m_ExpandedInstanceIDs: c62300002c6900005c87000024870000b26c0000e26a0000946d00009e6b0000087c0000ae8a0000c08a0000
+    m_SelectedInstanceIDs: 96c20000
+    m_LastClickedInstanceID: 49814
+    m_HadKeyboardFocusLastEvent: 1
+    m_ExpandedInstanceIDs: c62300002c6900005c87000024870000b26c0000e26a0000946d00009e6b0000087c0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -941,7 +941,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 1.0000305}
+    m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 49
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207

@@ -2739,6 +2739,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nextLevel: {fileID: 0}
+  selectedTower: {fileID: 0}
   statsTextField: {fileID: 1604648763}
 --- !u!4 &634827314
 Transform:
@@ -7902,7 +7903,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1955022226
 MonoBehaviour:
   m_ObjectHideFlags: 0

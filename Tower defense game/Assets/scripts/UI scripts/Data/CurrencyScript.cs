@@ -13,7 +13,7 @@ public class CurrencyScript : MonoBehaviour
 
     private void Start()
     {
-        increase = Random.RandomRange(4,101);
+        increase = Random.RandomRange(40,101);
     }
 
     void Update()
