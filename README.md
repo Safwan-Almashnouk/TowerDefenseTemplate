@@ -1,27 +1,22 @@
 Begin met een korte omschrijving van je towerdefense game en hoe deze werkt. Plaats ook een paar screenshots.
-Tower defense games mixed with horror. It is something i decided to make when discovering my product needed to be a unique tower defense game. I decided to mix the concept of a tower defense game with one i was enjoying for sometimes. Fear And Hunger. A game that 
-![not really my game](https://cdn.akamai.steamstatic.com/steam/apps/246420/ss_aaaf33cdb9106bd0801a36049516d95c6f2352b0.600x338.jpg?t=1686321490)
+Tower defense games mixed with horror. It is something i decided to make when discovering my product needed to be a unique tower defense game. I decided to mix the concept of a tower defense game with one i was enjoying for sometimes. Fear And Hunger. A game that enjoys tprturing the player and has a creepy atmosphere, thus that is what i decided to make. An unnerving Tower Defense Game 
 
-![also not](https://cdn.akamai.steamstatic.com/steam/apps/960090/ss_900d7c00d45ff2a258d4c8d59ee47f7f04854c37.600x338.jpg?t=1686097340)
+
+<img width="794" alt="image" src="https://github.com/Safwan-Almashnouk/TowerDefenseTemplate/assets/114736059/d35bf089-d160-4ab4-9062-efb7756d9013">
+
+
+
 
 
 ## Product 1: "DRY SRP Scripts op GitHub"
 
-Plaats hier minimaal 1 link naar scripts die voldoen aan de eisen van **"Don't Repeat Yourself (DRY)"** en **"Single Responsibility Principle"**.
-Omschrijf hier waarom jij denkt dat je in die scripts aan deze eisen voldoet.
+Here is a Dry script that i belive is well.. Dry, it is a script that allows me to buy and select towers, simple and none repetaeble 
+https://github.com/Safwan-Almashnouk/TowerDefenseTemplate/blob/master/Tower%20defense%20game/Assets/scripts/UI%20scripts/TowerSelection.cs
 
-Bijvoorbeeld:
-
-*"In dit script heb ik een array gebruikt voor al mijn vijanden die in de nieuwe wave worden gespawnd. Hierdoor heb ik mijzelf niet hoeven herhalen **(DRY)** in de code omdat ik met 1 regel alle enemies kan plaatsen via en for each loop.
-[link naar script](/MyTowerDefenseGame/Assets/Scripts/JustAScript.cs)"*
-
+Meanwhile, here is a SRP script, it does one thing, manage the enemies in the range of the tower, simple as that 
+https://github.com/Safwan-Almashnouk/TowerDefenseTemplate/blob/master/Tower%20defense%20game/Assets/scripts/RangeScript.cs
 ## Product 2: "Projectmappen op GitHub"
 
-Je commit de mappenstructuur van je unity project op github en verwijst vanuit je readme naar de root map van je project. Met een netjes en goed gestructureerde mappenstructuur en benamingen van files toon je aan dat je dit leerdoel beheerst. 
-
-Dit is de [ROOT](/MyTowerDefenseGame/) folder van mijn unity project.
-
-Zorg dat deze verwijst naar je Develop branch.
 
 ## Product 3: Build op Github
 
@@ -31,16 +26,11 @@ Je maakt in Unity een stabiele “build” van je game waarbij bugs en logs eers
 
 ## Product 4: Game met Sprites(animations) en Textures 
 
-De build van je game bevat textures, sprites en sprite animations(bijv particles) die op de juiste manier zijn gebruikt en zorgen voor een goede afwerking van je game.  
 
-Plaats in je readme een animated gif van je gameplay (+- 10 sec.) waarin de implementatie van je textures en sprites goed te zien is.
-
-![Textures Sprites](readmeVisuals/texturesSprites.gif)
+https://github.com/Safwan-Almashnouk/TowerDefenseTemplate/tree/develop/FinalPicsVid
 
 ## Product 5: Issues met debug screenshots op GitHub 
-
-Zodra je bugs tegenkomt maak je een issue aan op github. In de issue omschrijf je het probleem en je gaat proberen via breakpoints te achterhalen wat het probleem is. Je maakt screenshot(s) van het debuggen op het moment dat je via de debugger console ziet wat er mis is. Deze screenshots met daarbij uitleg over het probleem en de bijhorende oplossing post je in het bijhorende github issue. 
-[Hier de link naar mijn issues](https://github.com/erwinhenraat/TowerDefenseTemplate/issues/)
+https://github.com/Safwan-Almashnouk/TowerDefenseTemplate/tree/develop/FinalPicsVid
 
 ## Product 6: Game design met onderbouwing 
 
