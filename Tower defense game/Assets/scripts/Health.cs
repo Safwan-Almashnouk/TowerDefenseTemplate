@@ -18,6 +18,7 @@ public class Health : MonoBehaviour
     {
         if (currhealth <= 0)
         {
+
             GlobalData.playerCurr += deathReward;
             Destroy(gameObject);
             GameObject.Find("SoundHolder").GetComponent<SoundManager>().enemies.Remove(gameObject);
