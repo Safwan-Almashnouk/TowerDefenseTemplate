@@ -6,4 +6,5 @@ public class GlobalData
 {
     public static float playerCurr;
     public static float Health = 100;
+    public static int WaveIndex;
 }

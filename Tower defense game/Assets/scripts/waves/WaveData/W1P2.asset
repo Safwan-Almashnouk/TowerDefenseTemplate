@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b83f72d41816f1b41b7794c4f7b57b65, type: 3}
   m_Name: W1P2
   m_EditorClassIdentifier: 
-  id: 1
-  amount: 1
+  id: 0
+  amount: 5
   spacing: 2
-  delay: 5
+  delay: 0

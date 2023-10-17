@@ -13,6 +13,7 @@ public class TowerScript : MonoBehaviour
     private List<GameObject> targets;
     public int UpgradeCost;
     
+    
     void Start()
     {
         targets = GetComponentInChildren<RangeScript>().enemiesInRange;

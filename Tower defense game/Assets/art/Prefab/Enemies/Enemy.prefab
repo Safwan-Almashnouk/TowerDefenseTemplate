@@ -11,12 +11,12 @@ GameObject:
   - component: {fileID: 52893677997638194}
   - component: {fileID: 1016603238125696269}
   - component: {fileID: 1428441699099982445}
-  - component: {fileID: -7304423056177815260}
   - component: {fileID: 7946342452713489122}
   - component: {fileID: 4438390703806557237}
   - component: {fileID: -5227259744956297980}
   - component: {fileID: 4446178862439365215}
   - component: {fileID: -5008621360132324771}
+  - component: {fileID: 7182890204283713789}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -103,25 +103,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d16fb31873d698241bee35750b041947, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 5
   waypoint: {fileID: 0}
   Lane: {fileID: 0}
---- !u!58 &-7304423056177815260
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4641856708788961765}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.0022796988, y: -0.11022681}
-  serializedVersion: 2
-  m_Radius: 0.45836794
 --- !u!95 &7946342452713489122
 Animator:
   serializedVersion: 5
@@ -279,4 +263,46 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d796155c4194fef4ca38785cc2550521, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 100
+  damage: 1
+--- !u!60 &7182890204283713789
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4641856708788961765}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.52, y: 1.03}
+    newSize: {x: 0.52, y: 1.03}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.26, y: -0.515}
+      - {x: 0.26, y: -0.285}
+      - {x: 0.24, y: -0.145}
+      - {x: 0.24, y: 0.055}
+      - {x: 0.089999996, y: 0.195}
+      - {x: 0.22999999, y: 0.33499998}
+      - {x: 0.24, y: 0.515}
+      - {x: -0.01, y: 0.515}
+      - {x: -0.04, y: 0.45499998}
+      - {x: -0.08, y: 0.235}
+      - {x: -0.21, y: 0.044999998}
+      - {x: -0.21, y: -0.175}
+      - {x: -0.26, y: -0.36499998}
+      - {x: -0.26, y: -0.515}
+      - {x: -0.04, y: -0.515}
+      - {x: -0.02, y: -0.445}
+      - {x: 0.01, y: -0.515}

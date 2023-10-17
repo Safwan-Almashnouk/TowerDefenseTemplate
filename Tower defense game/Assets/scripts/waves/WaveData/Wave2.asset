@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waveDataList:
   - {fileID: 11400000, guid: ad0fc3d25c265fa489abc9a147940715, type: 2}
-  - {fileID: 0}
+  - {fileID: 11400000, guid: b5ed85c85bad0d749bb19fbf1fa26f4d, type: 2}

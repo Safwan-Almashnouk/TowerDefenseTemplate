@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: W2P2
   m_EditorClassIdentifier: 
   id: 1
-  amount: 1
-  spacing: 0
+  amount: 2
+  spacing: 2.5
   delay: 0

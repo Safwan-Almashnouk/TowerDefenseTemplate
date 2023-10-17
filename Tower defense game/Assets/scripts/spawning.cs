@@ -8,28 +8,30 @@ public class spawning : MonoBehaviour
     public Transform[] spawnpos; 
     public int selector;
     public GameObject[] enemies; 
-    public bool Attackstate = true;
-    public WaveStructure waveData;
+    public WaveStructure[] waveData;
     public SoundManager soundManager;
+    public WaitForNextWave wait;
+    
     
     void Start()
     {
         StartCoroutine(Spawning());
+        wait = GetComponent<WaitForNextWave>();
        
     }
 
-    IEnumerator Spawning()
+    internal IEnumerator Spawning()
     {
-        while (Attackstate == true)
-        {
+        WaveStructure wave = waveData[GlobalData.WaveIndex];
+        
             yield return new WaitForSeconds(Random.Range(0.5f, 0.8f));
-            for (int i = 0; i < waveData.waveDataList.Count; i++)
+            for (int i = 0; i < wave.waveDataList.Count; i++)
             {
-                yield return new WaitForSeconds(waveData.waveDataList[i].delay);
-                StartCoroutine(SpawnWaveData(waveData.waveDataList[i]));
+                yield return new WaitForSeconds(wave.waveDataList[i].delay);
+                StartCoroutine(SpawnWaveData(wave.waveDataList[i]));
             }
           
-        }
+        StartCoroutine(wait.WaitForWave());
 
 
     }

@@ -17,7 +17,7 @@ public class KillPlayer : MonoBehaviour
         {
             GlobalData.Health -= damage;
             Destroy(gameObject);
-            SceneManager.LoadScene("GameOver");
+           
             
         }
     }

@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 7947723217394668433}
   - component: {fileID: 3444724235620641917}
   - component: {fileID: 4755626295659425523}
-  - component: {fileID: 7379736360632924975}
   m_Layer: 6
   m_Name: HangedKingLevel1
   m_TagString: Player
@@ -199,19 +198,6 @@ PolygonCollider2D:
       - {x: 0.42, y: -1.745}
       - {x: 0.42999998, y: -0.965}
       - {x: 0.44, y: -0.895}
---- !u!114 &7379736360632924975
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 94688504777970563}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1118f270aadf9cc45bb36423561776af, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  UpgradeCost: 40
 --- !u!1 &6011273548674326321
 GameObject:
   m_ObjectHideFlags: 0

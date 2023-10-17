@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class UpgradeScript : MonoBehaviour
+public class WaveSummon : MonoBehaviour
 {
-    public int UpgradeCost;
-    
+    public Transform[] spawnPos;
+    public int selector;
+
     void Start()
     {
         

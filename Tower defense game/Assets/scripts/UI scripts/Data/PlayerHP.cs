@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerHP : MonoBehaviour
 {
@@ -13,7 +14,11 @@ public class PlayerHP : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
         health.text = GlobalData.Health.ToString();
+
+        if (GlobalData.Health <= 0)
+        {
+            SceneManager.LoadScene("GameOver");
+        }
     }
 }
