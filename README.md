@@ -43,27 +43,13 @@ Towers meanwhile will have range, atkspeed, damage, cost, upgrade cost. Each tow
 
 
 ## Product 8: Prototype test video
-Je hebt een werkend prototype gemaakt om een idee te testen. Omschrijf if je readme wat het idee van de mechanics is geweest wat je wilde testen en laat een korte video van de gameplay test zien. 
-
-[![example test video](https://ucarecdn.com/dbdc3ad0-f375-40ad-8987-9e6451b28b50/)](https://www.youtube.com/watch?v=CzzRML1swF0)
+https://youtu.be/PA6S38D_TEo
 
 ## Product 9: SCRUM planning inschatting 
 
-Je maakt een SCRUM planning en geeft daarbij een inschatting aan elke userstory d.m.v storypoints / zelf te bepalen eenheden. (bijv. Storypoints, Sizes of tijd) aan het begin van een nieuwe sprint update je deze inschatting per userstory. 
-
-Plaats in de readme een link naar je trello en **zorg ervoor dat je deze openbaar maakt**
-
-[Link naar de openbare trello](https://trello.com/b/w60wkKSU/examen-paraphrenia)
+https://trello.com/invite/b/CPgQH3l5/ATTI2a650c406c7d71c49dcccedc01cf0145C306FFEC/tower-defense-game
 
 ## Product 10: Gitflow conventions
 
-Je hebt voor je eigen project in je readme gitflow conventies opgesteld en je hier ook aantoonbaar aan gehouden. 
-
-De gitflow conventions gaan uit van een extra branch Develop naast de "Master"/"Main". Op de main worden alleen stabiele releases gezet.
-
-Verder worden features op een daarvoor bedoelde feature banch ontwikkeld. Ook kun je gebruik maken van een hotfix brancg vanaf develop.
-
-Leg hier uit welke branches jij gaat gebruiken en wat voor namen je hier aan gaat meegeven. Hoe vaak ga je comitten en wat voor commit messages wil je geven?
-
-Meer info over het gebruiken van gitflow [hier](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
+i started using gitflow a little late, which is something i regret a little
 
