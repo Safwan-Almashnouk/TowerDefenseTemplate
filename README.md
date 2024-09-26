@@ -1,4 +1,4 @@
-Begin met een korte omschrijving van je towerdefense game en hoe deze werkt. Plaats ook een paar screenshots.
+
 Tower defense games mixed with horror. It is something i decided to make when discovering my product needed to be a unique tower defense game. I decided to mix the concept of a tower defense game with one i was enjoying for sometimes. Fear And Hunger. A game that enjoys tprturing the player and has a creepy atmosphere, thus that is what i decided to make. An unnerving Tower Defense Game 
 
 
