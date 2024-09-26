@@ -17,35 +17,28 @@ Meanwhile, here is a SRP script, it does one thing, manage the enemies in the ra
 https://github.com/Safwan-Almashnouk/TowerDefenseTemplate/blob/master/Tower%20defense%20game/Assets/scripts/RangeScript.cs
 ## Product 2: "Projectmappen op GitHub"
 
-
-## Product 3: Build op Github
-
-Je maakt in Unity een stabiele “build” van je game waarbij bugs en logs eerst zijn verwijderd. Deze buildfiles upload je in je repository onder releases.  Bij eventuele afwijkingen moeten deze worden gedocumenteerd in de release. (Bijv controller nodig of spelen via netwerk etc..) 
-
-[Release Voorbeeld](https://github.com/erwinhenraat/TowerDefenseTemplate/releases)
-
-## Product 4: Game met Sprites(animations) en Textures 
+## Product 3: Game met Sprites(animations) en Textures 
 
 
 https://github.com/Safwan-Almashnouk/TowerDefenseTemplate/tree/develop/FinalPicsVid
 
-## Product 5: Issues met debug screenshots op GitHub 
+## Product 4: Issues met debug screenshots op GitHub 
 https://github.com/Safwan-Almashnouk/TowerDefenseTemplate/tree/develop/FinalPicsVid
 
-## Product 6: Game design met onderbouwing 
+## Product 5: Game design met onderbouwing 
 The game is simple. Enemies have 3 main stats, Health, Damage and Speed. Each enemy will have diffrence between the other. My first enemy is fast but has very low hp, and does barley any damage. The 3rd enemy will have a lot of HP, Do a lot of damage, and be extremly fast.
 
 Towers meanwhile will have range, atkspeed, damage, cost, upgrade cost. Each tower will have 3 diffrent versions, and with each upgrade their stat would increase. Some towers would increase the abilties of other towers, some will do less damage but attack more, some will spawn more projecticles 
 
-## Product 7: Class Diagram voor volledige codebase 
+## Product 6: Class Diagram voor volledige codebase 
 
 <img width="595" alt="image" src="https://github.com/Safwan-Almashnouk/TowerDefenseTemplate/assets/114736059/db328549-0dcd-4e88-9491-697c294a78d9">
 
 
-## Product 8: Prototype test video
+## Product 7: Prototype test video
 https://youtu.be/PA6S38D_TEo
 
-## Product 9: SCRUM planning inschatting 
+## Product 8: SCRUM planning inschatting 
 
 https://trello.com/invite/b/CPgQH3l5/ATTI2a650c406c7d71c49dcccedc01cf0145C306FFEC/tower-defense-game
 
